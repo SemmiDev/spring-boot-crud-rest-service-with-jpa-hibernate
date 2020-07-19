@@ -30,7 +30,7 @@ public class WebController {
     @GetMapping("/save")
     public String process() {
         repository.save(new Student("Sammi", "Aldhiyanto", 19, "MIPA","Tinggam",uuid.toString()));
-        repository.save(new Student("Adisti", "Listianova", 17, "MIPA", "Talu",uuid.toString()));
+        repository.save(new Student("Adisti", "Listianova", 86, "MIPA", "Talu",uuid.toString()));
         repository.save(new Student("Aditya", "Andika Putra", 19, "MIPA", "Talu",uuid.toString()));
         repository.save(new Student("Ayatullah", "Ramadhan", 19, "MIPA", "Talu",uuid.toString()));
         repository.save(new Student("Dandi", "Arnanda", 19, "MIPA", "Talu",uuid.toString()));
